@@ -1,3 +1,53 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  overscroll-behavior: none;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.leftBorder {
+  background: linear-gradient(
+    180deg,
+    rgba(162, 228, 53, 0) 0%,
+    #ff4800,
+    #ff4800 49.82638888888889%,
+    rgba(162, 228, 53, 0) 100%
+  );
+
+  height: 34px;
+  left: 0;
+  overflow: hidden;
+  top: calc(50.00000000000002% - 34px / 2);
+  width: 1px;
+  margin-left: 0 !important;
+}
+
+.btnShadow {
+  box-shadow: inset 0px -3px 4px -1px
+      var(
+        --token-77231509-6085-4caa-96f3-5f46f76f65f9,
+        rgba(255, 255, 255, 0.05)
+      ),
+    0px 0px 0px 1px
+      var(
+        --token-936fd169-2ae1-4cd1-afc5-f74c79a2c1f5,
+        rgba(255, 255, 255, 0.1)
+      ),
+    0px 2px 5px 0px rgba(0, 0, 0, 0.06), 0px 4px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+/* Hide the scrollbar while keeping scrolling functionality */
+body {
+  overflow: auto;
+}
+
+/* Hide the scrollbar on WebKit browsers */
+body::-webkit-scrollbar {
+  width: 0;  /* Remove scrollbar width */
+  height: 0; /* Remove scrollbar height */
+  background: transparent; /* Optional: set a transparent background */
+}
