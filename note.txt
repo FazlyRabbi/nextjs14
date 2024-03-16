@@ -3,5 +3,7 @@ NextJs 14
 Ui Shadcn
 Tailwind
 
-
 https://www.figma.com/file/MLhN1hfFPJzens0v54Qe27/Untitled?type=design&mode=design&t=70aHOj6q94lgZwwv-0
+
+
+https://dailyhub.framer.website/
