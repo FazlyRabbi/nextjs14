@@ -63,16 +63,16 @@ export default function Info() {
               <div className="flex flex-col gap-[12px]">
                 <h2 className="text-[#faf9f7] text-[22px] font-normal tracking-[0.01em] leading-[28px]">A Sponsor</h2>
                 <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">Open for New Sponsorships!</p>
-                <div>
-                <button className="text-[#faf9f7] text-[18px] font-medium tracking-[0.01em] leading-[22.5px] border-border border py-[6px] px-[16px] rounded-full">A Sponsor</button>
+                <div className="pt-2">
+                <button className="text-[#faf9f7] text-[18px] font-medium tracking-[0.01em] leading-[22.5px] border-border border py-[6px] px-[16px] rounded-full btnShadow">A Sponsor</button>
                 </div>
               </div>
               </div>
               <div className="flex flex-col gap-[12px] lg:order-last">
                 <h2 className="text-[#faf9f7] text-[22px] font-normal tracking-[0.01em] leading-[28px]">Submit</h2>
                 <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">Seeking top-notch tools for designers! Submit your recommendations via our form, each is manually approved for the highest standards. Join us in shaping design excellence!</p>
-                <div>
-                <button className="text-[#faf9f7] text-[18px] font-medium tracking-[0.01em] leading-[22.5px] border-border border py-[6px] px-[20px] rounded-full">Submit</button>
+                <div className="pt-2">
+                <button className="text-[#faf9f7] text-[18px] font-medium tracking-[0.01em] leading-[22.5px] border-border border py-[6px] px-[20px] rounded-full btnShadow">Submit</button>
                 </div>
               </div>
             </div>
