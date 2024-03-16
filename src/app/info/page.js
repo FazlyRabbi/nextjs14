@@ -1,4 +1,3 @@
-import react from "@heroicons/react";
 import Info from "@/components/Home/Info";
 
 
