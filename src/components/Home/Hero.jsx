@@ -1,6 +1,6 @@
 import React from "react";
-import Banner from "../../app/img/banner.jpg";
 import Image from "next/image";
+import Banner from "../../app/img/banner.jpg";
 
 import {
   Carousel,
@@ -16,8 +16,8 @@ export default function Hero() {
       <CarouselContent>
         {Array.from({ length: 5 }).map((_, index) => (
           <Image
-            key={index}
-            src={Banner}
+          key={index}
+          src={Banner}
             className="h-[30rem] w-full"
             height={1000}
             width={1000}

@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { MagnifyingGlassIcon, ClockIcon } from "@heroicons/react/24/outline";
+import Link from "next/link";
 
 export default function Sidebar() {
   return (
