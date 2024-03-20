@@ -42,37 +42,57 @@ export default function Info() {
                 />
               </div>
               <div className="flex flex-col gap-[48px]">
-              <div className="flex flex-col gap-[12px]">
-                <h2 className="text-[#faf9f7] text-[22px] font-normal tracking-[0.01em] leading-[28px]">
-                  About us
-                </h2>
-                <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">
-                  At DailyHub, we curate a diverse collection of uplifting
-                  content to fuel your creativity and spark new ideas every day.
-                  Whether you&rsquo; re a seasoned designer, a budding artist,
-                  or someone seeking daily motivation, we&rsquo; ve got you
-                  covered.
-                </p>
-                <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">
-                Explore our curated selection of inspiring stories, design trends, and thought-provoking content that aims to elevate your daily experiences. Join our community of creative minds and embark on a journey of continuous inspiration.
-                </p>
-                <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">
-                DailyHub is more than just a website, it&rsquo;s a hub for those who seek to infuse their daily lives with creativity, innovation, and positive vibes. Let&rsquo;s inspire and be inspired together!
-                </p>
-              </div>
-              <div className="flex flex-col gap-[12px]">
-                <h2 className="text-[#faf9f7] text-[22px] font-normal tracking-[0.01em] leading-[28px]">A Sponsor</h2>
-                <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">Open for New Sponsorships!</p>
-                <div className="pt-2">
-                <button className="text-[#faf9f7] text-[18px] font-medium tracking-[0.01em] leading-[22.5px] border-border border py-[6px] px-[16px] rounded-full btnShadow">A Sponsor</button>
+                <div className="flex flex-col gap-[12px]">
+                  <h2 className="text-[#faf9f7] text-[22px] font-normal tracking-[0.01em] leading-[28px]">
+                    About us
+                  </h2>
+                  <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">
+                    At DailyHub, we curate a diverse collection of uplifting
+                    content to fuel your creativity and spark new ideas every
+                    day. Whether you&rsquo; re a seasoned designer, a budding
+                    artist, or someone seeking daily motivation, we&rsquo; ve
+                    got you covered.
+                  </p>
+                  <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">
+                    Explore our curated selection of inspiring stories, design
+                    trends, and thought-provoking content that aims to elevate
+                    your daily experiences. Join our community of creative minds
+                    and embark on a journey of continuous inspiration.
+                  </p>
+                  <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">
+                    DailyHub is more than just a website, it&rsquo;s a hub for
+                    those who seek to infuse their daily lives with creativity,
+                    innovation, and positive vibes. Let&rsquo;s inspire and be
+                    inspired together!
+                  </p>
+                </div>
+                <div className="flex flex-col gap-[12px]">
+                  <h2 className="text-[#faf9f7] text-[22px] font-normal tracking-[0.01em] leading-[28px]">
+                    A Sponsor
+                  </h2>
+                  <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">
+                    Open for New Sponsorships!
+                  </p>
+                  <div className="pt-2">
+                    <button className="text-[#faf9f7] text-[18px] font-medium tracking-[0.01em] leading-[22.5px] border-border border py-[6px] px-[16px] rounded-full btnShadow">
+                      A Sponsor
+                    </button>
+                  </div>
                 </div>
               </div>
-              </div>
               <div className="flex flex-col gap-[12px] lg:order-last">
-                <h2 className="text-[#faf9f7] text-[22px] font-normal tracking-[0.01em] leading-[28px]">Submit</h2>
-                <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">Seeking top-notch tools for designers! Submit your recommendations via our form, each is manually approved for the highest standards. Join us in shaping design excellence!</p>
+                <h2 className="text-[#faf9f7] text-[22px] font-normal tracking-[0.01em] leading-[28px]">
+                  Submit
+                </h2>
+                <p className="text-[16px] leading-[21.6px] text-[#ada89f] font-medium">
+                  Seeking top-notch tools for designers! Submit your
+                  recommendations via our form, each is manually approved for
+                  the highest standards. Join us in shaping design excellence!
+                </p>
                 <div className="pt-2">
-                <button className="text-[#faf9f7] text-[18px] font-medium tracking-[0.01em] leading-[22.5px] border-border border py-[6px] px-[20px] rounded-full btnShadow">Submit</button>
+                  <button className="text-[#faf9f7] text-[18px] font-medium tracking-[0.01em] leading-[22.5px] border-border border py-[6px] px-[20px] rounded-full btnShadow">
+                    Submit
+                  </button>
                 </div>
               </div>
             </div>
