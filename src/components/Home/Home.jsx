@@ -15,7 +15,7 @@ export default function Home() {
         {/* sidebar */}
         <Sidebar />
         {/* sidebar */}
-        
+
         {/* main */}
         <main className="       m-2 lg:w-[84.6%] w-full  rounded-[8px] px-8     bg-secondary  border border-border   lg:ml-[15.4%]">
           <div>
@@ -40,13 +40,13 @@ export default function Home() {
               <div className=" grid lg:grid-cols-4  gap-6 grid-cols-1 md:grid-cols-2">
                 <div>
                   <h1 className=" text-[16px] text-white">Font of the day</h1>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
-                    <div className="flex items-center justify-between">
+                    <div className="flex items-center justify-between mt-3">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
                     <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
 
@@ -55,35 +55,47 @@ export default function Home() {
                 </div>
                 <div>
                   <h1 className=" text-[16px] text-white">Font of the day</h1>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="flex items-center justify-between mt-3">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+
+                    </div>
                   </div>
                 </div>
                 <div>
                   <h1 className=" text-[16px] text-white">Font of the day</h1>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="flex items-center justify-between mt-3">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+
+                    </div>
                   </div>
                 </div>
                 <div>
                   <h1 className=" text-[16px] text-white">Font of the day</h1>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="flex items-center justify-between mt-3">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+
+                    </div>
                   </div>
                 </div>
               </div>
@@ -96,42 +108,51 @@ export default function Home() {
                   <h1 className=" text-white text-[20px] ">Featured Gems</h1>
                 </div>
 
-                <div className=" grid lg:grid-cols-3  gap-6 grid-cols-1 ">
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                <div className="cursor-pointer grid lg:grid-cols-3  gap-6 grid-cols-1 ">
+                  <div className=" rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card2}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="flex items-center justify-between mt-3">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
+                    <p className=" text-[14px]    font-semibold  text-third mt-1">
+                      The internet is your canvas
+                    </p>
+                  </div>
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
+                    <Image
+                      src={card2}
+                      alt="image"
+                      className=" rounded-[5px]  border-border border"
+                    />
+                    <div className="flex items-center justify-between mt-3">
+                    <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
+                    <p className=" text-[14px]    font-semibold  text-third mt-1">
+                      The internet is your canvas
+                    </p>
+                  </div>
+                  <div className=" cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
+                    <Image
+                      src={card2}
+                      alt="image"
+                      className=" rounded-[5px]  border-border border"
+                    />
+                    <div className="flex items-center justify-between mt-3">
+                    <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
                     <p className=" text-[14px]    font-semibold  text-third mt-1">
                       The internet is your canvas
                     </p>
                   </div>
 
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
-                    <Image
-                      src={card2}
-                      alt="image"
-                      className=" rounded-[5px]  border-border border"
-                    />
-                    <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
-                    <p className=" text-[14px]    font-semibold  text-third mt-1">
-                      The internet is your canvas
-                    </p>
-                  </div>
-
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
-                    <Image
-                      src={card2}
-                      alt="image"
-                      className=" rounded-[5px]  border-border border"
-                    />
-                    <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
-                    <p className=" text-[14px]    font-semibold  text-third mt-1">
-                      The internet is your canvas
-                    </p>
-                  </div>
+                  
                 </div>
               </div>
 
@@ -143,50 +164,63 @@ export default function Home() {
                 </div>
 
                 <div className=" grid lg:grid-cols-4  gap-6 grid-cols-1 md:grid-cols-2">
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card3}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="mt-3 flex items-center justify-between ">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
                     <p className=" text-[14px]    font-semibold  text-third mt-1">
                       The internet is your canvas
                     </p>
                   </div>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card3}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="mt-3 flex items-center justify-between ">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
                     <p className=" text-[14px]    font-semibold  text-third mt-1">
                       The internet is your canvas
                     </p>
                   </div>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card3}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="mt-3 flex items-center justify-between ">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
                     <p className=" text-[14px]    font-semibold  text-third mt-1">
                       The internet is your canvas
                     </p>
                   </div>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card3}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="mt-3 flex items-center justify-between ">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
                     <p className=" text-[14px]    font-semibold  text-third mt-1">
                       The internet is your canvas
                     </p>
                   </div>
+                  
                 </div>
               </div>
 
@@ -198,46 +232,58 @@ export default function Home() {
                 </div>
 
                 <div className=" grid lg:grid-cols-4  gap-6 grid-cols-1 md:grid-cols-2">
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card3}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="mt-3 flex items-center justify-between ">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
                     <p className=" text-[14px]    font-semibold  text-third mt-1">
                       The internet is your canvas
                     </p>
                   </div>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card3}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="mt-3 flex items-center justify-between ">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
                     <p className=" text-[14px]    font-semibold  text-third mt-1">
                       The internet is your canvas
                     </p>
                   </div>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className="cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card3}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="mt-3 flex items-center justify-between ">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
                     <p className=" text-[14px]    font-semibold  text-third mt-1">
                       The internet is your canvas
                     </p>
                   </div>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className=" cursor-pointer rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card3}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="mt-3 flex items-center justify-between ">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
                     <p className=" text-[14px]    font-semibold  text-third mt-1">
                       The internet is your canvas
                     </p>

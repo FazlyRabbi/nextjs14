@@ -35,7 +35,111 @@ export default function Inspirations() {
             </div>
 
             <div className=" w-full    h-[1px] bg-border"></div>
-            <div className="py-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+            <div className="py-10 grid gap-5 md:grid-cols-2 lg:grid-cols-4 lg:gap-8">
+              <Link
+                href={"#"}
+                className="border border-border rounded-lg p-3 flex flex-col gap-4 hover:bg-[#1C1715] transition-all duration-300 whop_main "
+              >
+                <div>
+                  <Image src={insp_img} alt="image " className="rounded-lg" />
+                </div>
+                <div>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-start gap-2">
+                      <h4 className="text-[#ada89f] text-[16px] font-normal leading-[140%] tracking-[0.01em]">
+                        Whop
+                      </h4>
+                      <div className="border border-[#ff620a] text-[#ff620a] rounded-full h-5 w-10 flex justify-center">
+                        <p className="text-[12px]">NEW</p>
+                      </div>
+                    </div>
+                    <div>
+                      <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
+                  </div>
+                  <p className="text-[#817b6f] text-[15px] leading-[140%] ">
+                    Software
+                  </p>
+                </div>
+              </Link>
+              <Link
+                href={"#"}
+                className="border border-border rounded-lg p-3 flex flex-col gap-4 hover:bg-[#1C1715] transition-all duration-300 whop_main "
+              >
+                <div>
+                  <Image src={insp_img} alt="image " className="rounded-lg" />
+                </div>
+                <div>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-start gap-2">
+                      <h4 className="text-[#ada89f] text-[16px] font-normal leading-[140%] tracking-[0.01em]">
+                        Whop
+                      </h4>
+                      <div className="border border-[#ff620a] text-[#ff620a] rounded-full h-5 w-10 flex justify-center">
+                        <p className="text-[12px]">NEW</p>
+                      </div>
+                    </div>
+                    <div>
+                      <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
+                  </div>
+                  <p className="text-[#817b6f] text-[15px] leading-[140%] ">
+                    Software
+                  </p>
+                </div>
+              </Link>
+              <Link
+                href={"#"}
+                className="border border-border rounded-lg p-3 flex flex-col gap-4 hover:bg-[#1C1715] transition-all duration-300 whop_main "
+              >
+                <div>
+                  <Image src={insp_img} alt="image " className="rounded-lg" />
+                </div>
+                <div>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-start gap-2">
+                      <h4 className="text-[#ada89f] text-[16px] font-normal leading-[140%] tracking-[0.01em]">
+                        Whop
+                      </h4>
+                      <div className="border border-[#ff620a] text-[#ff620a] rounded-full h-5 w-10 flex justify-center">
+                        <p className="text-[12px]">NEW</p>
+                      </div>
+                    </div>
+                    <div>
+                      <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
+                  </div>
+                  <p className="text-[#817b6f] text-[15px] leading-[140%] ">
+                    Software
+                  </p>
+                </div>
+              </Link>
+              <Link
+                href={"#"}
+                className="border border-border rounded-lg p-3 flex flex-col gap-4 hover:bg-[#1C1715] transition-all duration-300 whop_main "
+              >
+                <div>
+                  <Image src={insp_img} alt="image " className="rounded-lg" />
+                </div>
+                <div>
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-start gap-2">
+                      <h4 className="text-[#ada89f] text-[16px] font-normal leading-[140%] tracking-[0.01em]">
+                        Whop
+                      </h4>
+                      <div className="border border-[#ff620a] text-[#ff620a] rounded-full h-5 w-10 flex justify-center">
+                        <p className="text-[12px]">NEW</p>
+                      </div>
+                    </div>
+                    <div>
+                      <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+                    </div>
+                  </div>
+                  <p className="text-[#817b6f] text-[15px] leading-[140%] ">
+                    Software
+                  </p>
+                </div>
+              </Link>
               <Link
                 href={"#"}
                 className="border border-border rounded-lg p-3 flex flex-col gap-4 hover:bg-[#1C1715] transition-all duration-300 whop_main "

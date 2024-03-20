@@ -39,17 +39,17 @@ export default function Sidebar() {
               <div className="   leftBorder left-0  absolute"></div>
             </div>
 
-            <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-white cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
+            <Link href={"/info"} className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-white cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
               <IoIosInformationCircleOutline className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">Info</span>
-            </div>
+            </Link>
 
-            <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-white cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
+            <Link href={"/sponsor"} className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-white cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
               <PiPiggyBank className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">A Sponser</span>
-            </div>
+            </Link>
           </div>
 
           <div className=" flex space-x-2  ml-[12px] items-center">
@@ -60,11 +60,11 @@ export default function Sidebar() {
 
           {/* middle menu */}
           <div className="   space-y-2 transition-all duration-300">
-            <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-[#ada89f] cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
+            <Link href={"/inspirations"} className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-[#ada89f] cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
               <AiOutlineFire className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">Inspirations</span>
-            </div>
+            </Link>
 
             <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-[#ada89f] cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
               <LuLayoutTemplate className="h-5 w-5   text-third  left-0 top-0" />
