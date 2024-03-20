@@ -4,6 +4,9 @@ import Image from "next/image";
 import card from "../../app/img/card.webp";
 import card2 from "../../app/img/card2.webp";
 import card3 from "../../app/img/card3.webp";
+import { FaArrowRightLong } from "react-icons/fa6";
+
+
 
 export default function Home() {
   return (
@@ -12,8 +15,7 @@ export default function Home() {
         {/* sidebar */}
         <Sidebar />
         {/* sidebar */}
-   
-   
+        
         {/* main */}
         <main className="       m-2 lg:w-[84.6%] w-full  rounded-[8px] px-8     bg-secondary  border border-border   lg:ml-[15.4%]">
           <div>
@@ -38,13 +40,17 @@ export default function Home() {
               <div className=" grid lg:grid-cols-4  gap-6 grid-cols-1 md:grid-cols-2">
                 <div>
                   <h1 className=" text-[16px] text-white">Font of the day</h1>
-                  <div className=" rounded-[5px] mt-5  p-3 border border-border">
+                  <div className=" rounded-[5px] mt-5  p-3 border border-border hover:bg-[#1C1715] transition-all duration-300 whop_main">
                     <Image
                       src={card}
                       alt="image"
                       className=" rounded-[5px]  border-border border"
                     />
+                    <div className="flex items-center justify-between">
                     <p className=" text-[14px] text-[#ada89f] mt-2">Gilory</p>
+                    <FaArrowRightLong className="text-[#ada89f] text-[20px]  icon hidden" />
+
+                    </div>
                   </div>
                 </div>
                 <div>

@@ -2,6 +2,14 @@ import React from "react";
 import Image from "next/image";
 import { MagnifyingGlassIcon, ClockIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { IoCompassOutline } from "react-icons/io5";
+import { IoIosInformationCircleOutline } from "react-icons/io";
+import { PiPiggyBank } from "react-icons/pi";
+import { AiOutlineFire } from "react-icons/ai";
+import { LuLayoutTemplate, LuFigma, LuNetwork } from "react-icons/lu";
+import { SiDwavesystems } from "react-icons/si";
+import { GoTypography } from "react-icons/go";
+import { PiCompassToolLight } from "react-icons/pi";
 
 export default function Sidebar() {
   return (
@@ -24,7 +32,7 @@ export default function Sidebar() {
           {/* top menu */}
           <div className="   space-y-2 transition-all duration-300">
             <div className="  bg-[#1c1715]  overflow-hidden relative border border-border text-third rounded-[5px] [&>*]:text-white cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
-              <ClockIcon className="h-5 w-5   text-third  left-0 top-0" />
+              <IoCompassOutline className="h-5 w-5   text-third  left-0 top-0" />
               <span className=" block text-sm">Discover</span>
 
               <div className="  bg-primary  overflow-hidden absolute blur-[24px] top-[calc(47.50000000000002% - 8px / 2)] left-0 w-[24px] h-[8px]"></div>
@@ -32,13 +40,13 @@ export default function Sidebar() {
             </div>
 
             <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-white cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
-              <ClockIcon className="h-5 w-5   text-third  left-0 top-0" />
+              <IoIosInformationCircleOutline className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">Info</span>
             </div>
 
             <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-white cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
-              <ClockIcon className="h-5 w-5   text-third  left-0 top-0" />
+              <PiPiggyBank className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">A Sponser</span>
             </div>
@@ -53,39 +61,39 @@ export default function Sidebar() {
           {/* middle menu */}
           <div className="   space-y-2 transition-all duration-300">
             <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-[#ada89f] cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
-              <ClockIcon className="h-5 w-5   text-third  left-0 top-0" />
+              <AiOutlineFire className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">Inspirations</span>
             </div>
 
             <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-[#ada89f] cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
-              <ClockIcon className="h-5 w-5   text-third  left-0 top-0" />
+              <LuLayoutTemplate className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">Templates</span>
             </div>
             <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-[#ada89f] cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
-              <ClockIcon className="h-5 w-5   text-third  left-0 top-0" />
+              <SiDwavesystems className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">Desing Systems</span>
             </div>
             <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-[#ada89f] cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
-              <ClockIcon className="h-5 w-5   text-third  left-0 top-0" />
+              <LuFigma className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">Premium UI Kits</span>
             </div>
             <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-[#ada89f] cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
-              <ClockIcon className="h-5 w-5   text-third  left-0 top-0" />
+              <LuNetwork className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">icons</span>
             </div>
             <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-[#ada89f] cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
-              <ClockIcon className="h-5 w-5   text-third  left-0 top-0" />
+              <GoTypography className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">Typography</span>
             </div>
 
             <div className="  hover:bg-[#1c1715]  overflow-hidden relative border border-transparent hover:border-border text-third rounded-[5px] [&>*]:text-[#ada89f] cursor-pointer px-[12px]    h-[40px]  flex items-center space-x-[10px]  hovertext-white">
-              <ClockIcon className="h-5 w-5   text-third  left-0 top-0" />
+              <PiCompassToolLight className="h-5 w-5   text-third  left-0 top-0" />
 
               <span className=" block text-sm">Desing tools</span>
             </div>

@@ -51,3 +51,15 @@ body::-webkit-scrollbar {
   height: 0; /* Remove scrollbar height */
   background: transparent; /* Optional: set a transparent background */
 }
+
+.icon{
+ transform: none;
+ transform-origin: 50% 50% 0px;
+ opacity: 1;
+}
+
+
+.whop_main:hover .icon{
+  display: block;
+  transform: rotate(-45deg);
+}
